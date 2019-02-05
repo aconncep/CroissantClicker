@@ -59,27 +59,30 @@ namespace CroissantClickerWF
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(18, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 16);
+            this.label1.Size = new System.Drawing.Size(111, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Croissants:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 92);
+            this.label2.Location = new System.Drawing.Point(18, 142);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.Size = new System.Drawing.Size(0, 20);
             this.label2.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 41);
+            this.label3.Location = new System.Drawing.Point(18, 63);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 16);
+            this.label3.Size = new System.Drawing.Size(58, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "Rate:";
             // 
@@ -87,45 +90,50 @@ namespace CroissantClickerWF
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 71);
+            this.label4.Location = new System.Drawing.Point(18, 109);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 16);
+            this.label4.Size = new System.Drawing.Size(71, 25);
             this.label4.TabIndex = 4;
             this.label4.Text = "Clicks:";
             // 
             // croissantsLabel
             // 
             this.croissantsLabel.AutoSize = true;
-            this.croissantsLabel.Location = new System.Drawing.Point(92, 11);
+            this.croissantsLabel.Location = new System.Drawing.Point(138, 17);
+            this.croissantsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.croissantsLabel.Name = "croissantsLabel";
-            this.croissantsLabel.Size = new System.Drawing.Size(13, 13);
+            this.croissantsLabel.Size = new System.Drawing.Size(18, 20);
             this.croissantsLabel.TabIndex = 5;
             this.croissantsLabel.Text = "0";
             // 
             // rateLabel
             // 
             this.rateLabel.AutoSize = true;
-            this.rateLabel.Location = new System.Drawing.Point(58, 43);
+            this.rateLabel.Location = new System.Drawing.Point(87, 66);
+            this.rateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.rateLabel.Name = "rateLabel";
-            this.rateLabel.Size = new System.Drawing.Size(13, 13);
+            this.rateLabel.Size = new System.Drawing.Size(18, 20);
             this.rateLabel.TabIndex = 6;
             this.rateLabel.Text = "0";
             // 
             // clicksLabel
             // 
             this.clicksLabel.AutoSize = true;
-            this.clicksLabel.Location = new System.Drawing.Point(65, 74);
+            this.clicksLabel.Location = new System.Drawing.Point(98, 114);
+            this.clicksLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.clicksLabel.Name = "clicksLabel";
-            this.clicksLabel.Size = new System.Drawing.Size(13, 13);
+            this.clicksLabel.Size = new System.Drawing.Size(18, 20);
             this.clicksLabel.TabIndex = 7;
             this.clicksLabel.Text = "0";
             // 
             // basicBakerButton
             // 
             this.basicBakerButton.Enabled = false;
-            this.basicBakerButton.Location = new System.Drawing.Point(51, 125);
+            this.basicBakerButton.Location = new System.Drawing.Point(76, 192);
+            this.basicBakerButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.basicBakerButton.Name = "basicBakerButton";
-            this.basicBakerButton.Size = new System.Drawing.Size(109, 35);
+            this.basicBakerButton.Size = new System.Drawing.Size(164, 54);
             this.basicBakerButton.TabIndex = 8;
             this.basicBakerButton.TabStop = false;
             this.basicBakerButton.Text = "Buy Basic Baker";
@@ -135,35 +143,39 @@ namespace CroissantClickerWF
             // basicBakerPowerIncrease
             // 
             this.basicBakerPowerIncrease.AutoSize = true;
-            this.basicBakerPowerIncrease.Location = new System.Drawing.Point(166, 147);
+            this.basicBakerPowerIncrease.Location = new System.Drawing.Point(249, 226);
+            this.basicBakerPowerIncrease.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.basicBakerPowerIncrease.Name = "basicBakerPowerIncrease";
-            this.basicBakerPowerIncrease.Size = new System.Drawing.Size(35, 13);
+            this.basicBakerPowerIncrease.Size = new System.Drawing.Size(47, 20);
             this.basicBakerPowerIncrease.TabIndex = 9;
             this.basicBakerPowerIncrease.Text = "+- c/s";
             // 
             // basicBakerCount
             // 
             this.basicBakerCount.AutoSize = true;
-            this.basicBakerCount.Location = new System.Drawing.Point(166, 125);
+            this.basicBakerCount.Location = new System.Drawing.Point(249, 192);
+            this.basicBakerCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.basicBakerCount.Name = "basicBakerCount";
-            this.basicBakerCount.Size = new System.Drawing.Size(13, 13);
+            this.basicBakerCount.Size = new System.Drawing.Size(18, 20);
             this.basicBakerCount.TabIndex = 10;
             this.basicBakerCount.Text = "0";
             // 
             // basicBakerCost
             // 
             this.basicBakerCost.AutoSize = true;
-            this.basicBakerCost.Location = new System.Drawing.Point(10, 136);
+            this.basicBakerCost.Location = new System.Drawing.Point(15, 209);
+            this.basicBakerCost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.basicBakerCost.Name = "basicBakerCost";
-            this.basicBakerCost.Size = new System.Drawing.Size(10, 13);
+            this.basicBakerCost.Size = new System.Drawing.Size(14, 20);
             this.basicBakerCost.TabIndex = 11;
             this.basicBakerCost.Text = "-";
             // 
             // aboutButton
             // 
-            this.aboutButton.Location = new System.Drawing.Point(911, 12);
+            this.aboutButton.Location = new System.Drawing.Point(1366, 18);
+            this.aboutButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.aboutButton.Name = "aboutButton";
-            this.aboutButton.Size = new System.Drawing.Size(77, 36);
+            this.aboutButton.Size = new System.Drawing.Size(116, 55);
             this.aboutButton.TabIndex = 12;
             this.aboutButton.TabStop = false;
             this.aboutButton.Text = "About";
@@ -172,9 +184,10 @@ namespace CroissantClickerWF
             // 
             // helpButton
             // 
-            this.helpButton.Location = new System.Drawing.Point(911, 54);
+            this.helpButton.Location = new System.Drawing.Point(1366, 83);
+            this.helpButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.helpButton.Name = "helpButton";
-            this.helpButton.Size = new System.Drawing.Size(75, 36);
+            this.helpButton.Size = new System.Drawing.Size(112, 55);
             this.helpButton.TabIndex = 13;
             this.helpButton.TabStop = false;
             this.helpButton.Text = "Help";
@@ -184,29 +197,32 @@ namespace CroissantClickerWF
             // versionLabel
             // 
             this.versionLabel.AutoSize = true;
-            this.versionLabel.Location = new System.Drawing.Point(958, 539);
+            this.versionLabel.Location = new System.Drawing.Point(1390, 808);
+            this.versionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.versionLabel.Name = "versionLabel";
-            this.versionLabel.Size = new System.Drawing.Size(28, 13);
+            this.versionLabel.Size = new System.Drawing.Size(88, 20);
             this.versionLabel.TabIndex = 14;
-            this.versionLabel.Text = "v0.1";
+            this.versionLabel.Text = "Release v1";
             this.versionLabel.DoubleClick += new System.EventHandler(this.versionLabel_DoubleClick);
             // 
             // croissantImage
             // 
             this.croissantImage.BackgroundImage = global::CroissantClickerWF.Properties.Resources.Croissant_Transparent_PNG;
             this.croissantImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.croissantImage.Location = new System.Drawing.Point(397, 178);
+            this.croissantImage.Location = new System.Drawing.Point(596, 274);
+            this.croissantImage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.croissantImage.Name = "croissantImage";
-            this.croissantImage.Size = new System.Drawing.Size(214, 169);
+            this.croissantImage.Size = new System.Drawing.Size(321, 260);
             this.croissantImage.TabIndex = 0;
             this.croissantImage.TabStop = false;
             this.croissantImage.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Croissant_OnClick);
             // 
             // saveButton
             // 
-            this.saveButton.Location = new System.Drawing.Point(913, 205);
+            this.saveButton.Location = new System.Drawing.Point(1370, 315);
+            this.saveButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(75, 36);
+            this.saveButton.Size = new System.Drawing.Size(112, 55);
             this.saveButton.TabIndex = 0;
             this.saveButton.TabStop = false;
             this.saveButton.Text = "Save";
@@ -215,9 +231,10 @@ namespace CroissantClickerWF
             // 
             // loadButton
             // 
-            this.loadButton.Location = new System.Drawing.Point(911, 96);
+            this.loadButton.Location = new System.Drawing.Point(1366, 148);
+            this.loadButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.loadButton.Name = "loadButton";
-            this.loadButton.Size = new System.Drawing.Size(75, 36);
+            this.loadButton.Size = new System.Drawing.Size(112, 55);
             this.loadButton.TabIndex = 16;
             this.loadButton.TabStop = false;
             this.loadButton.Text = "Load";
@@ -226,9 +243,10 @@ namespace CroissantClickerWF
             // 
             // resetButton
             // 
-            this.resetButton.Location = new System.Drawing.Point(911, 138);
+            this.resetButton.Location = new System.Drawing.Point(1366, 212);
+            this.resetButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.resetButton.Name = "resetButton";
-            this.resetButton.Size = new System.Drawing.Size(75, 36);
+            this.resetButton.Size = new System.Drawing.Size(112, 55);
             this.resetButton.TabIndex = 17;
             this.resetButton.TabStop = false;
             this.resetButton.Text = "Reset";
@@ -237,10 +255,10 @@ namespace CroissantClickerWF
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(231)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(1000, 561);
+            this.ClientSize = new System.Drawing.Size(1491, 837);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.loadButton);
             this.Controls.Add(this.saveButton);
@@ -260,9 +278,10 @@ namespace CroissantClickerWF
             this.Controls.Add(this.label1);
             this.Controls.Add(this.croissantImage);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1016, 600);
-            this.MinimumSize = new System.Drawing.Size(1016, 600);
+            this.MaximumSize = new System.Drawing.Size(1513, 893);
+            this.MinimumSize = new System.Drawing.Size(1513, 893);
             this.Name = "MainForm";
             this.Text = "Croissant Clicker";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);

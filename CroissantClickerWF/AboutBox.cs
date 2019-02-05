@@ -6,6 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CroissantClicker.Common;
 
 namespace CroissantClickerWF
 {
@@ -16,7 +17,7 @@ namespace CroissantClickerWF
             InitializeComponent();
             this.Text = String.Format("About Croissant Clicker (win32)");
             //this.labelProductName.Text = AssemblyProduct;
-            //this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
+            this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
             //this.labelCopyright.Text = AssemblyCopyright;
             //this.labelCompanyName.Text = AssemblyCompany;
             //this.textBoxDescription.Text = AssemblyDescription;
@@ -41,11 +42,11 @@ namespace CroissantClickerWF
             }
         }
 
-        public string AssemblyVersion
+        public static string AssemblyVersion
         {
             get
             {
-                return Assembly.GetExecutingAssembly().GetName().Version.ToString();
+                return "1";
             }
         }
 
@@ -105,6 +106,11 @@ namespace CroissantClickerWF
         private void okButton_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void UpdateLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AssemblyUpdater.CheckForUpdates();
         }
     }
 }
